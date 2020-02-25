@@ -1,4 +1,4 @@
-# Git-Cheat-Sheet
+# GIT-CHEAT-SHEET
 A git command guide
 
 # CREATE GIT REPOSITORY
@@ -7,10 +7,8 @@ A git command guide
 * git remote add origin "{path of root}"
 * specify files to ignore (OPTIONAL) touch .gitignore
 
-
 # CHECK STATUS
 * git status
-
 
 # COMMIT CHANGES
 * git add --all
@@ -37,20 +35,16 @@ A git command guide
 * git remote -v
 * git push origin master
 
-
-# Remove remote URL in GIT
+# REMOVE REMOTE URL IN GIT
 * git remote remove origin
-
 
 # BRANCHING
 
 # CREATE BRANCH
 * git branch [branch name]
 
-
 # SWITCH BRANCH
 * git checkout [branch name]
-
 
 # CREATE & SWITCH BRANCH
 * git checkout -b [branch name]
@@ -59,18 +53,14 @@ A git command guide
 # MERGE BRANCH TO MASTER/OTHER BRANCH
 * git merge [branch name]
 
-
 # DELETE A LOCAL BRANCH
 * git branch -d [branch name]
-
 
 # Deletes a remote branch
 * git push origin --delete [branch name]
 
-
 # PUSH BRANCH TO REMOTE REPOSITORY
 * git push origin [branch name]]
-
 
 # LIST BRANCHES
 * git branch -a
